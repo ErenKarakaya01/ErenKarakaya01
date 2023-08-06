@@ -1,16 +1,31 @@
-### Hi there 👋
+#!/usr/bin/javascript
+# -*- coding: utf-8 -*-
 
+class About extends Me {
+  public getCurrentWorkplace(): { workplace: { company: string; position: string } } {
+    return {
+      workplace: {
+        company: 'Qquicker',
+        position: 'Founder',
+      },
+    };
+  }
 
-**ErenKarakaya01/ErenKarakaya01** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  public getDailyKnowledge(): Array<string> {
+    return [
+      'Php',
+      'Javascript',
+      'Laravel',
+      'Vuejs',
+      'Angular',
+      'ReactNative',
+      'TailwindCss',
+      'Aws',
+    ];
+  }
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+  public getFutureGoal(): string {
+    return 'To contribute to open source.';
+  }
+}
 
