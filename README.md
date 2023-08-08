@@ -1,7 +1,6 @@
 <h2> Hi, I'm Eren Karakaya! UwU </h2>
 <img align='right' src="https://media.giphy.com/media/ieyl9zmCjO4b4t6qoY/giphy.gif" width="230">
-<p><em>Computer Enginnering Student at <a href="http://www.unb.br">Eskisehir Technical University</a><img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="30">
-</em></p>
+<p><em>Computer Enginnering Student at <a href="https://www.eskisehir.edu.tr">Eskisehir Technical University</a></em></p>
 
 [![Twitter: ThaiiBraga](https://img.shields.io/twitter/follow/ErenKarakaya01?style=social)](https://twitter.com/sprinkai0)
 [![Linkedin: thaianebraga](https://img.shields.io/badge/-ErenKarakaya01-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/sprinkai/)](https://www.linkedin.com/in/sprinkai/)
@@ -24,14 +23,13 @@ A little more about me...
     
       public getDailyKnowledge(): Array<string> {
         return [
-          'Php',
-          'Javascript',
-          'Laravel',
-          'Vuejs',
-          'Angular',
-          'ReactNative',
-          'TailwindCss',
-          'Aws',
+          "Javascript",
+          "React",
+          "Flutter",
+          "Node.js",
+          "Firebase",
+          "SQL",
+          "Java"        
         ];
       }
     
