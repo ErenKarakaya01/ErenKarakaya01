@@ -24,8 +24,9 @@ A little more about me...
     
       public getDailyKnowledge(): Array<string> {
         return [
-          "Javascript",
+          "ASP.NET",
           "React",
+          "Typescript",
           "Flutter",
           "Node.js",
           "Firebase",
