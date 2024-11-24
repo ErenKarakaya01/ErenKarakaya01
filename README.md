@@ -1,6 +1,6 @@
 <h2> Hi, I'm Eren Karakaya! UwU </h2>
 <img align='right' src="https://media3.giphy.com/media/Dh5q0sShxgp13DwrvG/giphy.gif?cid=ecf05e47477scyffk0ua5jkdlz2l5z0qpz7aijr2y0rx7tvz&ep=v1_gifs_search&rid=giphy.gif&ct=g" width="230">
-<p><em>Computer Enginnering Student at <a href="https://www.eskisehir.edu.tr">Eskisehir Technical University</a></em></p>
+<p><em>Computer Engineer at <a href="https://quizmodeon.com">Quizmodeon</a></em></p>
 <p><b><em>Web and Mobile Developer</em></b></p>
 
 [![Twitter: ThaiiBraga](https://img.shields.io/twitter/follow/ErenKarakaya01?style=social)](https://twitter.com/sprinkai0)
@@ -16,22 +16,23 @@ A little more about me...
       public getCurrentWorkplace(): { workplace: { company: string; position: string } } {
         return {
           workplace: {
-            company: 'Eskisehir Technical University',
-            position: 'Student',
+            company: 'Quizmodeon',
+            position: 'Frontend Developer',
           },
         };
       }
     
       public getDailyKnowledge(): Array<string> {
         return [
-          "ASP.NET",
           "React",
-          "Typescript",
-          "Flutter",
+          "React Native",
           "Node.js",
-          "Firebase",
+          "Typescript",
+          "Spring Boot"  
+          "ASP.NET",
           "SQL",
-          "Java"        
+          "Flutter",
+          "Firebase"
         ];
       }
     
